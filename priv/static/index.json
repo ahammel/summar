@@ -1,0 +1,17 @@
+{ "_links":
+  { "self": { "href": "/static/index.json" }
+  , "curies":
+    [ { "name": "add_event"
+      , "href": "/{tree}/add_event" 
+      , "templated": true
+      }
+    , { "name": "summary"
+      , "href": "/{tree}/{summary}/{node}" 
+      }
+    , { "name": "summarize"
+      , "href": "/{tree}/summary/{summarize}"
+      , "templated": true
+      }
+    ]
+  }
+}
